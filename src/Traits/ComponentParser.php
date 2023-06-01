@@ -2,9 +2,9 @@
 
 namespace Codions\LaravelModulesLivewire\Traits;
 
+use Codions\LaravelModulesLivewire\Support\Decomposer;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use Codions\LaravelModulesLivewire\Support\Decomposer;
 
 trait ComponentParser
 {

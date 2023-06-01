@@ -2,9 +2,9 @@
 
 namespace Codions\LaravelModulesLivewire\Commands;
 
+use Codions\LaravelModulesLivewire\Traits\ComponentParser;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
-use Codions\LaravelModulesLivewire\Traits\ComponentParser;
 
 class LivewireMakeCommand extends Command
 {

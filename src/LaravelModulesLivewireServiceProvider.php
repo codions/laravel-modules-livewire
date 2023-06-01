@@ -2,9 +2,9 @@
 
 namespace Codions\LaravelModulesLivewire;
 
-use Illuminate\Support\ServiceProvider;
 use Codions\LaravelModulesLivewire\Commands\LivewireMakeCommand;
 use Codions\LaravelModulesLivewire\Providers\LivewireComponentServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
 class LaravelModulesLivewireServiceProvider extends ServiceProvider
 {

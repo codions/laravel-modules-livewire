@@ -2,13 +2,13 @@
 
 namespace Codions\LaravelModulesLivewire\Providers;
 
+use Codions\LaravelModulesLivewire\Support\Decomposer;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Livewire\Component;
 use Livewire\Livewire;
 use Nwidart\Modules\Facades\Module;
-use Codions\LaravelModulesLivewire\Support\Decomposer;
 use ReflectionClass;
 use Symfony\Component\Finder\SplFileInfo;
 
